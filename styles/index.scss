@@ -18,7 +18,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    top: 25vh;
+    top: 9.75rem;
     padding: $sm-padding;
     background-color: $White;
     gap: $med-padding;
@@ -36,6 +36,7 @@
     &__copy {
         text-align: center;
         @include outfit-regular;
+        padding: 0 $med-padding;
         margin-bottom: $large-padding;
     }
 }
