@@ -108,9 +108,10 @@ h6 {
   font-size: 0.9375rem;
   letter-spacing: 0.0125rem;
   line-height: 140%;
+  margin-bottom: 40px;
 }
 
 .attribution {
   position: absolute;
-  bottom: 0;
+  bottom: -35vh;
 }/*# sourceMappingURL=index.css.map */

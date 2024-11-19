@@ -36,10 +36,11 @@
     &__copy {
         text-align: center;
         @include outfit-regular;
+        margin-bottom: $large-padding;
     }
 }
 
 .attribution {
     position: absolute;
-    bottom: 0;
+    bottom: -35vh;
 }
