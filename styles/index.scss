@@ -13,12 +13,13 @@
 }
 
 .card {
+    max-width: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
-    top: 9.75rem;
+    top: 25vh;
     padding: $sm-padding;
     background-color: $White;
     gap: $med-padding;
