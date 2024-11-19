@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("/assets/fonts/Outfit-Regular.ttf") format(truetype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("/assets/fonts/Outfit-Bold.ttf") format(truetype);
+    font-weight: 700;
+}
+
+@mixin outfit-bold {
+    font-size: 1.375rem;
+    line-height: 120%;
+}
+
+@mixin outfit-regular {
+    font-size: 0.9375rem;
+    letter-spacing: 0.0125rem;
+    line-height: 140%;
+}

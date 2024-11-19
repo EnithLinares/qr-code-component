@@ -1,0 +1,74 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/Outfit-Regular.ttf") format(truetype);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/Outfit-Bold.ttf") format(truetype);
+  font-weight: 700;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-size: 0.9375rem;
+  font-family: "Outfit", sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}/*# sourceMappingURL=index.css.map */
