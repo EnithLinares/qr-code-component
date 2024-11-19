@@ -1,2 +1,45 @@
 @use "./partials/resets" as *;
+@use "./partials/variables" as *;
 @use "./partials/typography" as *;
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: $sm-padding;
+    background-color: $Slate-300;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 25vh;
+    padding: $sm-padding;
+    background-color: $White;
+    gap: $med-padding;
+    border-radius: 20px;
+
+    &__img {
+        border-radius: 20px;
+    }
+
+    &__title {
+        text-align: center;
+        @include outfit-bold;
+    }
+
+    &__copy {
+        text-align: center;
+        @include outfit-regular;
+    }
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+}

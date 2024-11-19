@@ -71,4 +71,46 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding: 16px;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 25vh;
+  padding: 16px;
+  background-color: hsl(0, 0%, 100%);
+  gap: 24px;
+  border-radius: 20px;
+}
+.card__img {
+  border-radius: 20px;
+}
+.card__title {
+  text-align: center;
+  font-size: 1.375rem;
+  line-height: 120%;
+}
+.card__copy {
+  text-align: center;
+  font-size: 0.9375rem;
+  letter-spacing: 0.0125rem;
+  line-height: 140%;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
 }/*# sourceMappingURL=index.css.map */
